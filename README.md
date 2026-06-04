@@ -32,7 +32,6 @@ A simple backend API project built with FastAPI and SQLite.
 
 ## How to Run
 
-```bash
 pip install fastapi uvicorn pydantic
 python -m uvicorn main:app --reload
 
@@ -42,4 +41,5 @@ python -m uvicorn app.main:app --reload
 
 Open Swagger UI:
 http://127.0.0.1:8000/docs
+
 
